@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react(), tailwindCss()],
   build: {
     lib: {
-      entry: "./src/App.tsx",
+      entry: "./src/index.tsx",
       name: "CBot",
       fileName: "ChatBot",
       formats: ["es", "umd", "iife"],
